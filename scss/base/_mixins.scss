@@ -1,0 +1,18 @@
+//od urządzeń małych w górę
+
+@mixin small-up {
+    @media (min-width:#{$bg-small}) {
+        @content;
+    }
+}
+
+@mixin medium-up {
+    @media (min-width:#{$bg-medium}) {
+        @content;
+    }
+}
+@mixin large-up {
+    @media (min-width:#{$bg-large}) {
+        @content;
+    }
+}
