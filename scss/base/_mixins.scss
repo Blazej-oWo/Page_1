@@ -1,18 +1,19 @@
 //od urządzeń małych w górę
+//zmienne wzięte z variables, do tworzenie, wersji komurkowych jak i tabletowych
 
 @mixin small-up {
-    @media (min-width:#{$bg-small}) {
+    @media (min-width:#{$bp-small}) {
         @content;
     }
 }
 
 @mixin medium-up {
-    @media (min-width:#{$bg-medium}) {
+    @media (min-width:#{$bp-medium}) {
         @content;
     }
 }
 @mixin large-up {
-    @media (min-width:#{$bg-large}) {
+    @media (min-width:#{$bp-large}) {
         @content;
     }
 }
