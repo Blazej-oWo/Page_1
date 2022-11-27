@@ -411,4 +411,27 @@ body {
   .col--hiden-sm {
     display: inline-block;
   }
+}
+
+.btn {
+  background-color: #162532;
+  color: #fff;
+  padding: 16px 54px;
+  display: inline-block;
+  cursor: pointer;
+  border: 2px solid transparent;
+  text-align: center;
+  font-size: 1.563rem;
+  font-weight: 700;
+  border-radius: 2.124rem;
+  margin: 5px 0;
+  -webkit-transition: background-color 0.2s ease-in-out, border 0.2s ease-in-out, color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, border 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+.btn:hover {
+  color: #fff;
+  background-color: #a5bbcf;
+  border-color: #a5bbcf;
+  -webkit-box-shadow: 0px 33px 58px rgba(22, 37, 50, 0.08), 0px 9.94853px 17.4853px rgba(22, 37, 50, 0.0430594), 0px 4.13211px 7.2625px rgba(22, 37, 50, 0.0319383), 0px 1.4945px 2.6267px rgba(22, 37, 50, 0.0236976);
+          box-shadow: 0px 33px 58px rgba(22, 37, 50, 0.08), 0px 9.94853px 17.4853px rgba(22, 37, 50, 0.0430594), 0px 4.13211px 7.2625px rgba(22, 37, 50, 0.0319383), 0px 1.4945px 2.6267px rgba(22, 37, 50, 0.0236976);
 }/*# sourceMappingURL=style.css.map */

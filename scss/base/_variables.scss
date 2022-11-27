@@ -6,7 +6,8 @@ $font-size-4: $font-size-base * 2.75; // 44px
 $font-size-5: $font-size-base * 2.25; // 36px
 $font-size-6: $font-size-base * 2; // 32px mobile
 $font-size-7: $font-size-base * 1.5; // 24px menu
-$font-size-8: $font-size-base * 1.25; //20px
+$font-size-8: $font-size-base * 1.563; //25 btn font
+$font-size-9: $font-size-base * 1.25; //20px
 
 $font-weight-light: 300;
 $font-weight-regular: 400;
@@ -19,7 +20,8 @@ $line-height-motto: 45.97px;
 $line-height-about: 37.5px;
 $line-height-grid: 25.14px;
 
-$border-radius: 0.25rem;
+$border-radius-1: 0.25rem;
+$border-radius-2: 2.124rem;
 $grid-base: 10px;
 //Breakpoints urządzenia tel oraz
 $bp-small: "536px";
