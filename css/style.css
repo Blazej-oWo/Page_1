@@ -323,6 +323,47 @@ li {
   text-decoration: none;
 }
 
+.heading {
+  margin: 28px 0;
+}
+.heading--1 {
+  font-size: 3.25rem;
+}
+@media (min-width: 1280) {
+  .heading--1 {
+    font-size: 3.25rem;
+  }
+}
+.heading--2 {
+  font-size: 3rem;
+}
+@media (min-width: 1280) {
+  .heading--2 {
+    font-size: 3rem;
+  }
+}
+.heading--3 {
+  font-size: 2.75rem;
+}
+@media (min-width: 1280) {
+  .heading--3 {
+    font-size: 2.75rem;
+  }
+}
+
+.label {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  color: #fff;
+  line-height: 45.97px;
+}
+@media (min-width: 992px) {
+  .label {
+    text-align: start;
+  }
+}
+
 body {
   background-image: url("/img/bg_pic.png");
   background-repeat: no-repeat;
