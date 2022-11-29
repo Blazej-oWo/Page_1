@@ -1,0 +1,17 @@
+.header {
+    // dla urządzeń moblinych
+    position: relative;
+    @include medium-up {
+        padding-top: 62px;
+    }
+    & .flex {
+        justify-content: space-between;
+    }
+    &__btn {
+        display: none;
+
+        @include medium-up {
+            display: inline-block;
+        }
+    }
+}

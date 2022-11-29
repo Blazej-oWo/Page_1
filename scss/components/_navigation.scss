@@ -1,0 +1,29 @@
+.navigation {
+    &--destkop {
+        display: none;
+
+        @include medium-up {
+            display: block;
+
+            & ul {
+                display: flex;
+            }
+
+            & a {
+                padding: 10xp;
+                margin: 0 26px;
+                color: $gray-light;
+                line-height: $line-height-menu;
+                font-weight: $font-weight-light;
+                transition: color 0.1s linear;
+
+                &:hover {
+                    color: $active;
+                }
+                &.active {
+                    color: $active;
+                }
+            }
+        }
+    }
+}
