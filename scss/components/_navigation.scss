@@ -1,5 +1,5 @@
 .navigation {
-    &--destkop {
+    &--desktop {
         display: none;
 
         @include medium-up {
@@ -10,11 +10,11 @@
             }
 
             & a {
-                padding: 10xp;
+                padding: 10px;
                 margin: 0 26px;
                 color: $gray-light;
                 line-height: $line-height-menu;
-                font-weight: $font-weight-light;
+                font-weight: $font-weight-bold;
                 transition: color 0.1s linear;
 
                 &:hover {
