@@ -502,6 +502,7 @@ body {
 .navigation--desktop {
   display: none;
   margin-left: 915px;
+  min-width: 750px;
 }
 @media (min-width: 992px) {
   .navigation--desktop {
@@ -513,16 +514,20 @@ body {
     display: flex;
     margin-top: -30px;
   }
+  .navigation--desktop li {
+    margin: -15px;
+  }
   .navigation--desktop a {
     padding: 10px;
     margin: 0 56px;
     color: #5e5e5e;
     line-height: 31px;
-    font-weight: 700;
+    font-weight: 300;
     -webkit-transition: color 0.1s linear;
     transition: color 0.1s linear;
     font-size: 1.5rem;
     text-transform: uppercase;
+    font-family: "Fira Code", sans-serif;
   }
   .navigation--desktop a:hover {
     color: #cd06ff;

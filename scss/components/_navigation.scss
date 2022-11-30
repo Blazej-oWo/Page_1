@@ -2,6 +2,7 @@
     &--desktop {
         display: none;
         margin-left: 915px;
+        min-width: 750px;
         @include medium-up {
             display: block;
 
@@ -9,16 +10,19 @@
                 display: flex;
                 margin-top: -30px;
             }
-
+            & li {
+                margin: -15px;
+            }
             & a {
                 padding: 10px;
                 margin: 0 56px;
                 color: $gray-light;
                 line-height: $line-height-menu;
-                font-weight: $font-weight-bold;
+                font-weight: $font-weight-light;
                 transition: color 0.1s linear;
                 font-size: $font-size-7;
                 text-transform: uppercase;
+                font-family: "Fira Code", sans-serif;
 
                 &:hover {
                     color: $active;
