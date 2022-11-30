@@ -1,21 +1,24 @@
 .navigation {
     &--desktop {
         display: none;
-
+        margin-left: 915px;
         @include medium-up {
             display: block;
 
             & ul {
                 display: flex;
+                margin-top: -30px;
             }
 
             & a {
                 padding: 10px;
-                margin: 0 26px;
+                margin: 0 56px;
                 color: $gray-light;
                 line-height: $line-height-menu;
                 font-weight: $font-weight-bold;
                 transition: color 0.1s linear;
+                font-size: $font-size-7;
+                text-transform: uppercase;
 
                 &:hover {
                     color: $active;
