@@ -33,4 +33,46 @@
             }
         }
     }
+
+    &--mobile {
+        background-color: $white;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 20%;
+        bottom: 0%;
+        z-index: 20;
+    }
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+
+    &__top {
+        padding: 19px 24px;
+        border-bottom: 1px solid $active;
+
+        &-heading {
+            font-size: 40px;
+            color: $active;
+            font-weight: $font-weight-bold;
+        }
+    }
+
+    &__list {
+        padding: 46px 24px 18px;
+        border-bottom: 1px solid $active;
+        & a {
+            color: $gray-dark;
+            display: block;
+            margin-bottom: 28px;
+            font-weight: $font-weight-bold;
+            &:hover {
+                color: $active;
+            }
+            &.active {
+                color: $active;
+            }
+        }
+    }
 }
