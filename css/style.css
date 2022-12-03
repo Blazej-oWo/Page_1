@@ -333,7 +333,6 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-  position: relative;
   overflow-x: hidden;
 }
 
@@ -395,8 +394,14 @@ li {
 body {
   background-image: url("/img/bg_pic.png");
   background-repeat: no-repeat;
-  background-position: 100% 0%;
-  background-size: 1440px 1024px;
+  min-height: 100%;
+  min-width: 1024px;
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+  /* Set up positioning */
+  top: 0;
+  right: 0;
 }
 
 .container {
@@ -612,6 +617,12 @@ body {
 .menu__list {
   padding: 46px 24px 18px;
   border-bottom: 1px solid #cd06ff;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .menu__list a {
   color: #343434;

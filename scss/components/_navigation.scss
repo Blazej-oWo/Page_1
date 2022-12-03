@@ -62,11 +62,14 @@
     &__list {
         padding: 46px 24px 18px;
         border-bottom: 1px solid $active;
+        justify-content: center;
+        align-items: center;
         & a {
             color: $gray-dark;
             display: block;
             margin-bottom: 28px;
             font-weight: $font-weight-bold;
+
             &:hover {
                 color: $active;
             }
