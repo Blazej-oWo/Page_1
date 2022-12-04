@@ -392,11 +392,15 @@ li {
   }
 }
 
-.hero {
+.wrapper {
   background-image: url("/img/bg_pic.png");
+  width: 100vw;
+  height: 100vh;
+  margin-top: -65px;
+  margin-left: 660px;
+  /* Set up positioning */
   background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 100%;
+  border: 5px solid black;
 }
 
 .container {
