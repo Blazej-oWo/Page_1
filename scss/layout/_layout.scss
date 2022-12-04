@@ -1,18 +1,8 @@
-body {
+.hero {
     background-image: url("/img/bg_pic.png");
     background-repeat: no-repeat;
+    background-size: cover;
     min-height: 100%;
-    min-width: 1024px;
-
-    /* Set up proportionate scaling */
-    width: 100%;
-    height: auto;
-
-    /* Set up positioning */
-
-    top: 0;
-    right: 0;
-    // background-attachment: fixed;
 }
 .container {
     margin: 0 auto;
